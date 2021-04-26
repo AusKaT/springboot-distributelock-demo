@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="distribute-zk-lock" />
+        <module name="distributelock-demo" />
+        <module name="distribute-lock" />
+        <module name="redisson-lock" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="distribute-lock" options="-parameters" />
+      <module name="distribute-zk-lock" options="-parameters" />
+      <module name="distributelock-demo" options="-parameters" />
+      <module name="redisson-lock" options="-parameters" />
+    </option>
+  </component>
+</project>
